@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="input-container">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="text" id="quantity" value="10"/>
+                <button id="convert-btn">Convert</button>
+            </div>
+            <div id="units-container">
+                <div id="converter">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="length-units">10 meters = 32.808 feet | 10 feet = 3.048 meters</p>
+                </div>
+                <div id="converter">
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <p id="volume-units">10 liters = 2.642 gallons | 10 gallons = 37.854 liters</p>
+                </div>
+                <div id="converter">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="mass-units">10 kilos = 22.046 pounds | 10 pounds = 4.535 kilos</p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
